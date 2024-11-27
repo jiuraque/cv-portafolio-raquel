@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Bricolage Grotesque", serif;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.canvas {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.5);
+}
+
+.canvas .izquierda {
+    position: relative;
+    background: #bb4d00;
+    padding: 40px;
+}
+
+.perfil-texto {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.img-perfil img {
+    width: 200px; 
+    height: auto; 
+    border-radius: 50%; 
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.perfil-texto h1 {
+    font-size: 1.6em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+}
+
+.perfil-texto span{
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.info-contacto {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.info-contacto h3 {
+    padding: 20px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.info-contacto p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.skills {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    padding-bottom: 20px;   
+}
+
+.skills h3 {
+    padding: 20px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.skills ul {
+    text-align: center;
+    list-style: none;
+    font-size: 1.1em;
+}
+
+.estudios {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.estudios h3 {
+    padding: 20px;
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.estudios h4 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.canvas .derecha {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.acerca-de-mi {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.acerca-de-mi h2 {
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.acerca-de-mi p {
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+
