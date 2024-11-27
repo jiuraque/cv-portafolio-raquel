@@ -60,8 +60,8 @@ body {
 /* header */
 
 header#intro { 
-  color: var(--lettering); 
-  padding: 5rem 0; 
+  padding: 5rem 0;
+  color: var(--dark-color) 
 }
 
 header#intro .container {
@@ -83,8 +83,11 @@ header#intro .container {
 
 h1.display-1 {
   font-size: 3rem; 
-  color: var(--light-color); 
   font-weight: 700; 
+}
+
+h1 {
+    color: var(--primary-color);
 }
 
 
@@ -98,3 +101,10 @@ p.my-5 {
 header#intro .container div {
   padding-left: 20px; 
 }
+
+
+#acerca-de-mi h2 {
+    color: #ff6b35;
+  }
+
+
