@@ -7,30 +7,59 @@
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
 
 :root {
-    --primary-color: #ff6b35;
-    --dark-color:#073b4c;
+  --primary-color: #ff6b35;
+  --dark-color: #073b4c;
+  --lettering: #fff;
 }
 
 body {
   font-family: "Bricolage Grotesque", serif;
   font-weight: 200;
-  color: #555;
+  color: var(--dark-color);
 }
 
-img {
-    max-width: 100%;
+.navbar {
+  background-color: var(--dark-color);
+  padding: 15px 30px;
 }
 
-a {
+.navbar-brand {
+  padding: 20px;
+}
+
+.nombre {
+  color: var(--lettering);
+  font-weight: 500;
+}
+
+.apellido {
+  color: var(--primary-color);
+  font-weight: 800;
+}
+
+.offcanvas-body .nav-link {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 10px 0 10px;
+  text-transform: uppercase;
+  color: var(--lettering);
+  padding: 10px;
+}
+
+.offcanvas-body .nav-link:hover {
     color: var(--primary-color);
-    text-decoration: none;
+    text-decoration: none; 
+    font-weight: bold; 
 }
 
-a:hover {
-    color: #cb612f;
-    text-decoration: none;
-}
-
-h4 span {
+.offcanvas-title {
     color: var(--primary-color);
 }
+
+.offcanvas.show {
+    background-color: var(--dark-color); 
+  }
+  
+
+  
+  
