@@ -19,61 +19,85 @@
     ></script>
   </head>
   <body>
-      <nav class="navbar header-nav navbar-dark navbar-expand-lg">
-        <div class="container-fluid">
-          <!-- nombre/logo -->
-          <a href="#" class="navbar-brand">
-            <h4 class="mb-0">
-                <span class="nombre">Raquel</span> <span class="apellido">Pérez</span></h4>
-          </a>
+    <nav class="navbar header-nav navbar-dark navbar-expand-lg">
+      <div class="container-fluid">
+        <!-- nombre/logo -->
+        <a href="#" class="navbar-brand">
+          <h4 class="mb-0">
+            <span class="nombre">Raquel</span>
+            <span class="apellido">Pérez</span>
+          </h4>
+        </a>
+        <!-- barra de navegación -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
           <!-- menu -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title">Menu</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="abrir menu"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li>
-                  <a href="#acerca" class="nav-link">Acerca de mi</a>
-                </li>
-                <li>
-                  <a href="#cv" class="nav-link">Mi CV</a>
-                </li>
-                <li>
-                  <a href="#portafolio" class="nav-link">Portafolio</a>
-                </li>
-                <li>
-                  <a href="#datos" class="nav-link">Mis datos</a>
-                </li>
-              </ul>
-            </div>
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="abrir menu"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li>
+                <a href="#acerca" class="nav-link">Acerca de mi</a>
+              </li>
+              <li>
+                <a href="#cv" class="nav-link">Mi CV</a>
+              </li>
+              <li>
+                <a href="#portafolio" class="nav-link">Portafolio</a>
+              </li>
+              <li>
+                <a href="#datos" class="nav-link">Mis datos</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <header>
+    <!-- header -->
+    <header id="intro" class="text-light text-start py-5 mt-5">
+      <div class="container d-flex align-items-center justify-content-center">
 
+        <!-- Texto -->
+        <div>
+          <h1 class="display-1 fw-bold text-center text-dark">
+            Hola, soy Raquel<br />
+            Desarrolladora Web
+          </h1>
+          <p class="my-5 text-dark text-center">
+            Soy una profesional en transición al desarrollo front-end, con
+            experiencia en roles administrativos y de atención al cliente. Estoy
+            aprendiendo HTML, CSS, JavaScript y React, motivada por crear
+            interfaces web funcionales y atractivas. Me apasiona el desarrollo
+            web ya que me permite combinar creatividad y lógica para construir
+            interfaces que sean funcionales, atractivas y accesibles. Me
+            emociona la idea de formar parte de campo en constante evolución,
+            donde puedo aprender continuamente y crear soluciones que realmente
+            marquen una diferencia en la experiencia de los usuarios.
+          </p>
+        </div>
+      </div>
     </header>
   </body>
 </html>
