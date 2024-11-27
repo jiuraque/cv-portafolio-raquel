@@ -16,3 +16,21 @@ body {
   font-weight: 200;
   color: #555;
 }
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cb612f;
+    text-decoration: none;
+}
+
+h4 span {
+    color: var(--primary-color);
+}
